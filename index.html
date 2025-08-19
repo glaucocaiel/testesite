@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Linguiças Artesanais da Casa - O Sabor da Tradição</title>
+
+  <!-- Bootstrap + Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Fonte Montserrat -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+
+  <!-- CSS externo -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark glass-nav fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Linguiças da Casa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nós</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kits">Kits Prontos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#monte-seu-combo">Monte seu Combo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero-section d-flex align-items-center text-center">
+    <div class="container">
+      <div class="hero-glass p-4 p-md-5 mx-auto">
+        <h1 class="display-4 display-md-3 fw-bold mb-3">O Sabor da Tradição em Cada Linguiça</h1>
+        <p class="lead mb-4">Feitas à mão com ingredientes selecionados. Peça já e receba o melhor do sabor artesanal em sua casa!</p>
+        <a href="#kits" class="btn btn-cta btn-lg">Ver Kits Promocionais</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Nossa História</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <img src="https://images.pexels.com/photos/793759/pexels-photo-793759.jpeg" class="img-fluid rounded shadow" alt="Produção de linguiças artesanais">
+        </div>
+        <div class="col-md-6">
+          <h3>Paixão que vem de família.</h3>
+          <p class="lead">Nascemos do desejo de resgatar receitas tradicionais, trazendo para a sua mesa um produto autêntico, sem conservantes e com muito sabor. Cada linguiça é preparada com cuidado, utilizando apenas carnes nobres e temperos frescos, garantindo uma experiência gastronômica única.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KITS -->
+  <section id="kits" class="py-5 kits-bg">
+    <div class="container">
+      <h2 class="text-center text-white mb-5">Nossos Kits Promocionais</h2>
+
+      <div class="row text-center">
+        <!-- Kit 1 -->
+        <div class="col-lg-4 mb-4">
+          <div class="card glass-card h-100">
+            <img src="https://images.pexels.com/photos/675951/pexels-photo-675951.jpeg" class="card-img-top card-photo" alt="Kit Churrasco Amigos">
+            <div class="card-body">
+              <h4 class="fw-semibold">Kit Churrasco Amigos</h4>
+              <h1 class="display-price">R$89<small>,90</small></h1>
+              <ul class="list-unstyled small mb-4">
+                <li>1kg Linguiça Toscana Tradicional</li>
+                <li>500g Frango com Queijo</li>
+                <li>500g Linguiça Apimentada</li>
+                <li>Serve até 6 pessoas</li>
+              </ul>
+              <button class="btn btn-glass w-100 btn-comprar" data-kit="Kit Churrasco Amigos">Quero Este Kit!</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kit 2 (Mais Pedido) -->
+        <div class="col-lg-4 mb-4">
+          <div class="card glass-card destaque-card h-100 position-relative">
+            <!-- selo -->
+            <span class="mais-pedido-badge">⭐ Mais Pedido</span>
+            <img src="https://images.pexels.com/photos/793759/pexels-photo-793759.jpeg" class="card-img-top card-photo" alt="Kit Degustação Semanal">
+            <div class="card-body">
+              <h4 class="fw-bold">Kit Degustação Semanal</h4>
+              <h1 class="display-price destaque">R$119<small>,90</small></h1>
+              <ul class="list-unstyled small mb-4">
+                <li>500g Linguiça Cuiabana</li>
+                <li>500g Linguiça com Provolone</li>
+                <li>500g Linguiça de Pernil com Ervas</li>
+                <li><strong>Perfeito para o dia a dia</strong></li>
+              </ul>
+              <button class="btn btn-cta w-100 btn-comprar" data-kit="Kit Degustação Semanal">🚀 Quero Este Kit!</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kit 3 -->
+        <div class="col-lg-4 mb-4">
+          <div class="card glass-card h-100">
+            <img src="https://images.pexels.com/photos/65177/pexels-photo-65177.jpeg" class="card-img-top card-photo" alt="Kit Mestre Linguiçeiro">
+            <div class="card-body">
+              <h4 class="fw-semibold">Kit Mestre Linguiçeiro</h4>
+              <h1 class="display-price">R$149<small>,90</small></h1>
+              <ul class="list-unstyled small mb-4">
+                <li>1kg Linguiça com Vinho Tinto</li>
+                <li>1kg Linguiça Bovina com Alho</li>
+                <li>500g Suína Pura</li>
+                <li>Para paladares exigentes</li>
+              </ul>
+              <button class="btn btn-glass w-100 btn-comprar" data-kit="Kit Mestre Linguiçeiro">Quero Este Kit!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MONTE SEU COMBO -->
+  <section id="monte-seu-combo" class="py-5 combo-bg">
+    <div class="container">
+      <h2 class="text-center text-white mb-2">Monte seu Combo Personalizado</h2>
+      <p class="text-center text-white-50 mb-5">Escolha a carne base e os temperos para criar sua linguiça exclusiva.</p>
+      
+      <div class="row justify-content-center">
+        <div class="col-lg-5 col-md-6 mb-4">
+          <div class="card glass-card h-100">
+            <img src="https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg" class="card-img-top combo-photo" alt="Base da linguiça">
+            <div class="card-body">
+              <h4 class="card-title"><i class="bi bi-1-circle-fill"></i> Escolha a Base</h4>
+              <div class="form-check my-2"><input class="form-check-input" type="radio" name="baseCarne" value="Pernil Suíno" checked> <label class="form-check-label">Pernil Suíno</label></div>
+              <div class="form-check my-2"><input class="form-check-input" type="radio" name="baseCarne" value="Peito de Frango"> <label class="form-check-label">Peito de Frango</label></div>
+              <div class="form-check my-2"><input class="form-check-input" type="radio" name="baseCarne" value="Misto (Suíno e Bovino)"> <label class="form-check-label">Misto (Suíno e Bovino)</label></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-5 col-md-6 mb-4">
+          <div class="card glass-card h-100">
+            <img src="https://images.pexels.com/photos/678414/pexels-photo-678414.jpeg" class="card-img-top combo-photo" alt="Condimentos">
+            <div class="card-body">
+              <h4 class="card-title"><i class="bi bi-2-circle-fill"></i> Escolha os Condimentos</h4>
+              <div class="form-check my-1"><input class="form-check-input condimento" type="checkbox" value="Pimenta Calabresa"> <label class="form-check-label">Pimenta Calabresa</label></div>
+              <div class="form-check my-1"><input class="form-check-input condimento" type="checkbox" value="Queijo Provolone"> <label class="form-check-label">Queijo Provolone</label></div>
+              <div class="form-check my-1"><input class="form-check-input condimento" type="checkbox" value="Azeitonas Pretas"> <label class="form-check-label">Azeitonas Pretas</label></div>
+              <div class="form-check my-1"><input class="form-check-input condimento" type="checkbox" value="Bacon em Cubos"> <label class="form-check-label">Bacon em Cubos</label></div>
+              <div class="form-check my-1"><input class="form-check-input condimento" type="checkbox" value="Ervas Finas"> <label class="form-check-label">Ervas Finas</label></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center">
+        <button id="btn-montar-combo" class="btn btn-cta btn-lg"><i class="bi bi-whatsapp"></i> Montar e Pedir no WhatsApp</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contato" class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p class="mb-1"><strong>Linguiças Artesanais da Casa</strong></p>
+      <p class="mb-3">Para dúvidas ou pedidos, fale conosco!</p>
+      <a href="#" class="text-white me-3 fs-4"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="text-white me-3 fs-4"><i class="bi bi-facebook"></i></a>
+      <a href="https://wa.me/5551983268600" target="_blank" class="text-white fs-4"><i class="bi bi-whatsapp"></i></a>
+      <p class="mt-3 mb-0"><small>&copy; 2025 Linguiças da Casa. Todos os direitos reservados.</small></p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const numeroWhatsapp = '5551983268600';
+
+    // Kits
+    document.querySelectorAll('.btn-comprar').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const kit = btn.getAttribute('data-kit');
+        const msg = `Olá! Tenho interesse em encomendar o *${kit}*. Poderia me passar mais informações?`;
+        window.open(`https://wa.me/${numeroWhatsapp}?text=${encodeURIComponent(msg)}`, '_blank');
+      });
+    });
+
+    // Combo
+    document.getElementById('btn-montar-combo').addEventListener('click', () => {
+      const base = document.querySelector('input[name="baseCarne"]:checked')?.value || 'Não selecionado';
+      const conds = [...document.querySelectorAll('.condimento:checked')].map(c => c.value);
+      const msg = `Olá! Gostaria de montar um combo personalizado:\n\n*Base:* ${base}\n*Condimentos:* ${conds.length ? conds.join(', ') : 'Nenhum condimento adicional'}\n\nAguardo orçamento e informações.`;
+      window.open(`https://wa.me/${numeroWhatsapp}?text=${encodeURIComponent(msg)}`, '_blank');
+    });
+  </script>
+</body>
+</html>
