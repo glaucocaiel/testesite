@@ -160,3 +160,14 @@ section h2 {
   box-shadow: 0 6px 14px rgba(255,193,7,.45);
   z-index: 2;
 }
+
+/*Radio Button monte seu combo*/
+.form-check-input:checked {
+    background-color: #e79a35; /* Verde, por exemplo */
+    border-color: #e79a35;
+}
+
+.form-check-input:focus {
+    border-color: #e79a35;
+    box-shadow: 0 0 0 0.2rem #e79a35(40, 167, 69, 0.25);
+}
